@@ -9,6 +9,11 @@ const loopback = require('loopback');
 const boot = require('loopback-boot');
 
 const app = module.exports = loopback();
+const dotenv=require("dotenv");
+dotenv.config({path : "./.env"});
+// console.log(app.get("env"));
+// console.log(process.env);
+
 
 app.start = function() {
   // start the web server

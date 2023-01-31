@@ -14,17 +14,21 @@
       "type": "string",
       "required": true
     },
-    "created-by": {
+    "created_by": {
       "type": "string",
       "required": true
     },
-    "created-at": {
+    "created_at": {
       "type": "string",
       "required": true
     },
-    "updated-at": {
+    "updated_at": {
       "type": "string",
       "required": true
+    },
+    "phone_no": {
+     "type":"string",
+     "required":false
     }
   },
   "validations": [],

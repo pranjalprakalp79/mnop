@@ -1,0 +1,9 @@
+# export DB_HOST=localhost
+# export DB_PORT=3306
+# export DB_NAME=my_db
+# export DB_PASSWORD=password
+# export DB_USER=root
+# export connector=mysql
+# export PRODUCTION=true
+# export environment=.env
+# node .

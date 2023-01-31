@@ -1,20 +1,2 @@
-{
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
-  "testdb": {
-    "host": "localhost",
-    "port": "5432",
-    "url": "",
-    "database": "My_db",
-    "password": "pranjal",
-    "name": "testdb",
-    "user": "postgres",
-    "connector": "postgresql",
-    "min": 5,
-    "max": 200,
-    "idleTimeoutMillis": 60000,
-    "ssl": false
-  }
-}
+
+{}
